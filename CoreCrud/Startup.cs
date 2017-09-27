@@ -62,7 +62,7 @@ namespace CoreCrud
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Company}/{action=Index}/{id?}");
+                    template: "{controller=User}/{action=Index}/{id?}");
             });
         }
     }

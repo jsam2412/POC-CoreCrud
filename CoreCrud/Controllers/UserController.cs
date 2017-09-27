@@ -123,7 +123,7 @@ namespace CoreCrud.Controllers
         }
 
         [HttpPost]
-        public ActionResult DeleteUser(long id, FormCollection form)
+        public ActionResult DeleteUser(long id)
         {
             userService.DeleteUser(id);
             return RedirectToAction("Index");
