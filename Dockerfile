@@ -14,7 +14,7 @@ RUN dotnet restore ./CoreCrud/CoreCrud.csproj;
 #    dotnet restore ./CoreCrud.Service/CoreCrud.Service.csproj;
 
 
-RUN dotnet build ./CoreCrud/CoreCrud.csproj;
+#RUN dotnet build ./CoreCrud/CoreCrud.csproj;
 RUN dotnet publish "./CoreCrud/CoreCrud.csproj" -c Release -o ./out;
 
 # Build runtime image
