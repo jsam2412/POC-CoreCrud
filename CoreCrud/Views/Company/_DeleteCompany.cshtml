@@ -1,0 +1,33 @@
+@model CompanyViewModel
+@using CoreCrud.Models
+
+@Html.Partial("_ModalHeader", new ModalHeader { Heading = "Delete Company" })
+<input asp-for="Id" type="hidden" />
+<div class="modal-body form-horizontal">
+    Are you want to delete @Model.CompanyName?
+</div>
+<div class="modal-footer">
+    <button data-dismiss="modal" id="btncancel" class="btn btn-default" type="button">Cancel</button>
+    <button class="btn btn-success" id="btnremove" type="button">Delete</button>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btnremove").click(function () {
+            $.ajax({
+                type: 'post',
+                datatype: 'json',
+                url: 'api/company/remove',
+                data: { id: $("#Id").val() },
+                success: function (res) {
+                    console.log(JSON.stringify(res))
+                    console.log(res);
+                    if (res.status) {
+                        window.location.reload();
+                    }
+
+                }
+
+            })
+        })
+    })
+</script>

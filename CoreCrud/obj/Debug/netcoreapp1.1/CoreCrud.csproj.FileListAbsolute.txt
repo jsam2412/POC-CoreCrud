@@ -1,0 +1,16 @@
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.deps.json
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.runtimeconfig.json
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.runtimeconfig.dev.json
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.pdb
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.Data.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.Repository.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.Service.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.Data.pdb
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.Repository.pdb
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\bin\Debug\netcoreapp1.1\CoreCrud.Service.pdb
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\obj\Debug\netcoreapp1.1\CoreCrud.csprojResolveAssemblyReference.cache
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\obj\Debug\netcoreapp1.1\CoreCrud.csproj.CoreCompileInputs.cache
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\obj\Debug\netcoreapp1.1\CoreCrud.AssemblyInfo.cs
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\obj\Debug\netcoreapp1.1\CoreCrud.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud\obj\Debug\netcoreapp1.1\CoreCrud.pdb

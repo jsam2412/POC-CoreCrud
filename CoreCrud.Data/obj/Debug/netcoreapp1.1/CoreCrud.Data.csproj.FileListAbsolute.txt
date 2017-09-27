@@ -1,0 +1,8 @@
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\bin\Debug\netcoreapp1.1\CoreCrud.Data.deps.json
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\bin\Debug\netcoreapp1.1\CoreCrud.Data.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\bin\Debug\netcoreapp1.1\CoreCrud.Data.pdb
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\obj\Debug\netcoreapp1.1\CoreCrud.Data.csprojResolveAssemblyReference.cache
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\obj\Debug\netcoreapp1.1\CoreCrud.Data.csproj.CoreCompileInputs.cache
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\obj\Debug\netcoreapp1.1\CoreCrud.Data.AssemblyInfo.cs
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\obj\Debug\netcoreapp1.1\CoreCrud.Data.dll
+C:\Users\sandeep.maurya\source\repos\CoreCrud\CoreCrud.Data\obj\Debug\netcoreapp1.1\CoreCrud.Data.pdb

@@ -1,0 +1,62 @@
+﻿@model CompanyViewModel
+@using CoreCrud.Models
+
+@await Html.PartialAsync("_ModalHeader", new ModalHeader { Heading = "Edit Company" })
+<form id="frmupdate">
+    <div class="modal-body form-horizontal">
+        <div class="row">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="CompanyName" class="col-lg-3 col-sm-3 control-label"></label>
+                <div class="col-lg-6">
+                    <input asp-for="CompanyName" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="col-lg-3 col-sm-3 control-label"></label>
+                <div class="col-lg-6">
+                    <input asp-for="Address" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address" class="col-lg-3 col-sm-3 control-label" style="display:none;"></label>
+                <div class="col-lg-6">
+                    <input type="button" value="Update" id="btnUpdate" style="float:right;" />
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#btnUpdate").click(function () {
+            $.ajax({
+                type: 'post',
+                datatype: 'json',
+                url: 'api/company/Edit',
+                data: $("#frmupdate").serialize(),
+                success: function (res) {
+                    console.log(JSON.stringify(res))
+                    console.log(res);
+                    if (res.status) {
+                        window.location.reload();
+                    }
+
+                }
+
+            })
+
+        })
+
+
+    })
+</script>
+
+
+
+
+
