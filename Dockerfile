@@ -7,7 +7,7 @@ WORKDIR /CoreCrud
 # Copy everything else and build
 COPY . ./
 
-RUN dotnet restore ./CoreCrud/CoreCrud.csproj; 
+#RUN dotnet restore ./CoreCrud/CoreCrud.csproj; 
 #    dotnet restore ./CoreCrud.API/CoreCrud.API.csproj; \
 #    dotnet restore ./CoreCrud.Data/CoreCrud.Data.csproj; \
 #    dotnet restore ./CoreCrud.Repository/CoreCrud.Repository.csproj; \
